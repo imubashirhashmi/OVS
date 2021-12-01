@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: OpenSans-Bold;
+    src: url('../fonts/OpenSans/OpenSans-Bold.ttf'); 
+  }
+
+body{
+    margin:0px;
+    font-family: OpenSans-Regular;
+
+    
+}
+
+.main{
+    display: block;
+    margin:0px;
+    padding: 0px;
+    border-radius: 15px;
+    background: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container_login{
+    display: flex;
+    padding: 0px;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.container_login input{
+   margin-top: 40px;
+    float:left;
+    width:100%;
+    padding:40px;
+    font-size: larger;
+    border:none;
+    outline: none;
+    background: #fff;
+}
+
+.row input[type="text"]{
+    border-top-left-radius: 12px;
+}
+
+.row input[type="password"]{
+    border-top-right-radius: 12px;
+    border-left: 2px solid #f1f1f1;
+}
+
+
+
+.container_login .row{
+    float:left;
+    width: 50%;
+}
+
+.col img{
+    width:50%!important;
+}
+
+.container_login button{
+    border: none;
+    outline: none;
+    padding:40px;
+    margin:0px;
+    font-size: larger;
+    font-weight: 1000;
+    width:100%;
+    background: black;
+    text-transform: uppercase;
+    color:#fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.container_login button:hover{
+    cursor: pointer;
+    background: rgb(11, 0, 160);
+    color:rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+.container_login .row:last-child{
+    display: block;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    margin-bottom: 15px;
+}
+
+
+.overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(46, 0, 172) 10%, rgb(0, 132, 255));
+   z-index: -1;
+   text-align: center;
+}
+
+.container_login h1{
+    color:rgb(0, 0, 0);
+    font-size:2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin:0px;
+}
+
+.container_login p{
+    display: block;
+    color:#ff0000;
+    text-align: center;
+
+}
+
+.container_login .image{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    padding:20px 0px;
+}
+.container_login .image img{
+    margin:0px;
+    width:200px;
+    height:100%;
+}
+
+.container_login .image img:first-child{
+    float:left;
+    align-self: center;
+    margin-right: 100px;
+}
+
+.container_login .image img:last-child{
+    float:right;
+    width:220px;
+}
+
+.container_login .title{
+    background-size: 190px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+    margin:0px;
+    padding:0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.na, .naul{
+    width:100%;
+}
+
+.ni{
+    width:50%;
+    justify-content: center;
+}
+
+.mybtn{
+    width: 100%!important;
+    padding:30px;
+    border:none;
+    outline:none!important;
+    background: black;
+    font-size: larger;
+    font-weight: 1000;
+    width:100%;
+    text-transform: uppercase;
+    color:#fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.mybtn:hover{
+    cursor: pointer;
+    background: rgb(11, 0, 160);
+    color:rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+.hrmi{
+    padding: 0px !important;;
+}
+
+.main_card{
+    border-bottom-left-radius: 12px!important;
+    border-bottom-right-radius: 12px!important;
+    outline:none!important;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
