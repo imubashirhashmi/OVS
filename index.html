@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V20</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="overlay">	
+		
+	</div>
+	
+	<div class="container_login">
+		<div>
+
+			<div class="title">
+				<div class="image">
+					<img src="img/texture1.png">
+					<img src="img/votebox.png">
+				</div>
+				<div style="width:100%; background: #f2f2f2;  border-bottom-right-radius: 12px;
+				border-bottom-left-radius: 12px;">
+					<H1>ELECTION PAKISTAN - 2021</H1>
+				</div>
+			</div>
+			
+			<div class="main">
+				<div class="form">
+					<form action="ovs.html" method="post">
+						<div class="row">
+							<input type="text" pattern="^[a-zA-Z0-9]{4,20}$" name="username" placeholder="username" required>
+						</div>
+						<div class="row">
+							<input type="password" pattern="^[a-zA-Z0-9]{8,20}$" name="password" placeholder="password" required>
+						</div>
+						<div class="row">
+							<button class="button" type="submit" value="password">login</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<p>Be carefull entering credentials - <i>tries are limited</i></p>
+		</div>
+		
+	</div>
+	<script>
+		(function(){
+			setTimeout(() => {
+				var x = document.getElementsByClassName('button')[0];
+				x.style.transition = 'all 0.4s';
+			}, 500);
+		})();
+	</script>
+</body>
+</html>
